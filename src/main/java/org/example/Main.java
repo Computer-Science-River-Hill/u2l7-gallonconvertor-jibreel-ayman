@@ -1,7 +1,7 @@
 package org.example; //DO NOT DELETE
 
 import java.util.Scanner;
-
+class Main {
 public static void main(String[] args) {
     // Create a Scanner object to get user input
     Scanner scanner = new Scanner(System.in);
@@ -25,4 +25,5 @@ public static void main(String[] args) {
     System.out.println(tablespoons + " tablespoons");
 
     scanner.close();
+}
 }
